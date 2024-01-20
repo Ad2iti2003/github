@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+    <title>Document</title>
+
+    <style>
+        *{
+            background-color: rgb(247, 250, 251);
+            font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        #page{
+            width: 100%;
+            height: 100%;
+            
+            
+        }
+        .top{
+            height: 250px;
+            
+            padding: 20px;
+            display: flex;
+            gap: 90px;
+            
+
+        }
+        .top .img{
+            height: 200px;
+            width: 200px;
+            background-color: rgba(219, 214, 214, 0.955);
+            margin-left: 10px;
+            border-radius: 50%;
+            color: rgb(178, 174, 174);
+            text-align: center;
+            padding-top: 80px;
+            box-shadow: 0 2px 2px 5px white ;
+
+        }
+        
+        .down{
+            padding: 30px;
+            width: 100%;
+            height: 700px;
+           
+            display: grid;
+            grid-template-columns: repeat( 2 , 500px);
+            gap: 80px;
+
+        }
+        .down .box{
+            padding: 15px;
+            border: 2px solid black;
+        }
+        .down .box h1{
+            color: rgb(32, 118, 198);
+
+        }
+        .down .box button{
+            background-color: rgb(32, 118, 198);
+            color: white;
+        }
+        .slide{
+            width: 440px;
+            height: 40px;
+            margin: auto;
+            display: flex;
+        }
+        .slide .slides{
+            width: 40px;
+            height: 40px;
+            border:2px solid black;
+            text-align: center;
+        }
+        .last{
+            max-width: 600px;
+            
+            margin: auto;
+            text-align: center;
+            gap: 100px;
+        }
+        .last button{
+            padding: 5px 20px;
+            margin: 30px;
+            border-radius: 20px;
+        }
+
+
+
+
+        
+        
+
+    </style>
+</head>
+<body>
+    <div id="page">
+        <div class="top">
+            <div class="img">Image</div>
+            <div class="text">
+                <h1><b>John Doe</b></h1>
+                <p><b>Bio goes here</b></p>
+                <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                    <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+                  </svg>Oriando</p>
+                <p><b>Twitter:https://twitter.com/john_doe</b></p>
+            </div>
+            
+        </div>
+        <div class="link">
+            <p>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+                    <path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9q-.13 0-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+                    <path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4 4 0 0 1-.82 1H12a3 3 0 1 0 0-6z"/>
+                  </svg> https://github.com/john_doe
+                  </p>
+        </div>
+        <div class="down">
+        <div class="box">
+            <h1>Heroes</h1>
+            <p>Heroes description goes here</p>
+            <button type="button">javascript</button>
+            <button type="button">angular</button>
+            <button type="button">angularjs</button>
+            <button type="button">angular 2+</button>
+
+        </div>
+        <div class="box">
+            <h1>Heroes</h1>
+            <p>Heroes description goes here</p>
+            <button type="button">javascript</button>
+            <button type="button">angular</button>
+            <button type="button">angularjs</button>
+            <button type="button">angular 2+</button>
+        </div>
+        <div class="box">
+            <h1>Heroes</h1>
+            <p>Heroes description goes here</p>
+            <button type="button">javascript</button>
+            <button type="button">angular</button>
+            <button type="button">angularjs</button>
+            <button type="button">angular 2+</button>
+        </div>
+        <div class="box">
+            <h1>Heroes</h1>
+            <p>Heroes description goes here</p>
+            <button type="button">javascript</button>
+            <button type="button">angular</button>
+            <button type="button">angularjs</button>
+            <button type="button">angular 2+</button>
+        </div>
+        <div class="box">
+            <h1>Heroes</h1>
+            <p>Heroes description goes here</p>
+            <button type="button">javascript</button>
+            <button type="button">angular</button>
+            <button type="button">angularjs</button>
+            <button type="button">angular 2+</button>
+        </div>
+        <div class="box">
+            <h1>Heroes</h1>
+            <p>Heroes description goes here</p>
+            <button type="button">javascript</button>
+            <button type="button">angular</button>
+            <button type="button">angularjs</button>
+            <button type="button">angular 2+</button>
+        </div>
+    </div>
+    <div class="slide">
+        <div class="slides"><a href=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-skip-backward-fill" viewBox="0 0 16 16">
+            <path d="M.5 3.5A.5.5 0 0 0 0 4v8a.5.5 0 0 0 1 0V8.753l6.267 3.636c.54.313 1.233-.066 1.233-.697v-2.94l6.267 3.636c.54.314 1.233-.065 1.233-.696V4.308c0-.63-.693-1.01-1.233-.696L8.5 7.248v-2.94c0-.63-.692-1.01-1.233-.696L1 7.248V4a.5.5 0 0 0-.5-.5"/>
+          </svg></a></div>
+        <div class="slides">1</div>
+        <div class="slides" style="background-color: rgb(32, 118, 198);color:white">2</div>
+        <div class="slides">3</div>
+        <div class="slides">4</div>
+        <div class="slides">5</div>
+        <div class="slides">6</div>
+        <div class="slides">7</div>
+        <div class="slides">8</div>
+        <div class="slides">9</div>
+        <div class="slides"><a href=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-fast-forward-fill" viewBox="0 0 16 16">
+            <path d="M7.596 7.304a.802.802 0 0 1 0 1.392l-6.363 3.692C.713 12.69 0 12.345 0 11.692V4.308c0-.653.713-.998 1.233-.696z"/>
+            <path d="M15.596 7.304a.802.802 0 0 1 0 1.392l-6.363 3.692C8.713 12.69 8 12.345 8 11.692V4.308c0-.653.713-.998 1.233-.696z"/>
+          </svg></a></div>
+    </div>
+    <div class="last">
+        <button type="button" style="color: rgb(32, 118, 198);"s><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8"/>
+          </svg><a href="a.html">Older</a></button>
+        <button type="button" style="color: rgb(32, 118, 198);"><a href="c.html">Newer</a><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+          </svg></button>
+    </div>
+    </div>
+    
+   
+        
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
